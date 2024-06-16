@@ -8,7 +8,7 @@ Es handelt sich um einen einfachen 'gap-follow' - Algorithmus, bei dem sich das 
 
 Dazu befindet sich ein Video von einer Testfahrt im Videoordner (testdrive-demo.mp4)! Und auch eins von der am Ende etwas holprigen, aber erfolgreichen Challenge auf der DAA-Tagung in Bielefeld (Challenge.mp4) :D! 
 
-Beim Klassenaufruf wird über die Parameter min_angle und max_angle der abzutastende Bereich eingestellt. Als Default sind die vollen 180 ° gesetzt (-90° bis 90°, 0° ist "vorne"). Dazu kann eine Schrittweite (STEP) eingestellt werden, in welchem Winkelabstand jeweils der Abstand bis zu einem eventuellen Hindernis gemessen werden soll. 
+Beim Klassenaufruf wird über die Parameter min_angle und max_angle der abzutastende Bereich eingestellt. Als Default sind die vollen 180 ° gesetzt (-90° bis 90°, 0° ist "vorne"). Dazu kann eine Schrittweite (STEP) eingestellt werden, in welchem Winkelabstand jeweils die Distanz bis zu einem eventuellen Hindernis gemessen werden soll. 
 
 Die Methode 'scan_step_cps' führt die eigentliche Messung aus. Dabei werden die Winkel mit den dazugehörigen, gemessenen Distanzen als Key-Value-Paare in ein Dictionary geschrieben, um für weitere Schritte mit diesen konkreten Winkelangaben ansprechbar zu sein.
 
