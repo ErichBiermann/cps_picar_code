@@ -10,7 +10,7 @@ The code implements a rather simple 'gap-follow-algorithm' that maneuvers a PiCa
 This is shown in a video in the Video folder (testdrive-demo.mp4)!
 And there's also one from the final challenge at the DAA meeting in Bielefeld (Challenge.mp4), that went a little sideways, but in a good way, at the end :D. 
 
-By instantiating the Pathfinder class, the angle range to scan by the ultrasonic sensor is set via the max_angle and min_angle attributes, which are set to 90° and -90° by default (front is 0°). Furthermore, a constant step size STEP can be set, which corresponds to the angular distances in which measurements will be taken. A smaller step size will take more measurements at smaller angular distances.
+By instantiating the Pathfinder class, the angle range to scan by the ultrasonic sensor is set via the max_angle and min_angle attributes, which are set to 90° and -90° by default (front is 0°). Furthermore, a constant step size STEP can be set, which corresponds to the angular distances at which measurements will be taken. A smaller step size will take more measurements at smaller angular distances.
 
 In the 'scan_step_cps' method the measurements (taken with the built-in distance_at-function) at the specific angles are stored in a dictionary as key-value pairs (e.g. -90: 34.43) so that they can be referred to as a particular angle by the other methods or the user, instantiating a class or altering the code.
 
