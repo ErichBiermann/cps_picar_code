@@ -4,7 +4,7 @@
 Der code besteht aus der Pathfinder-Klasse und dem Klassenaufruf. Er verwendet z.T. Standard-Funktionen aus den mitgelieferten Bibliotheken des Herstellers, die unter https://github.com/sunfounder/picar-4wd abrufbar sind. Der hier hochgeladene Code ist für sich allein nicht ausführbar.
 
 
-Es handelt sich um einen einfachen 'gap-follow' - Algorithmus, bei dem sich das PiCar mithilfe des vorne montierten Ultraschallsensors seinen Weg durch ein Labyrinth oder einen geschlossenen Parcours sucht. Der Ultraschallsensor sitzt auf einem Sevormotor und kann in einem Bereich von 180° von links nach rechts und zurück gedreht werden. 
+Es handelt sich um einen einfachen 'gap-follow' - Algorithmus, bei dem sich das PiCar mithilfe des vorne montierten Ultraschallsensors seinen Weg durch ein Labyrinth oder einen geschlossenen Parcours sucht. Der Ultraschallsensor sitzt auf einem Servomotor und kann in einem Bereich von 180° von links nach rechts und zurück gedreht werden. 
 
 Dazu befindet sich ein Video von einer Testfahrt im Videoordner (testdrive-demo.mp4)! Und auch eins von der am Ende etwas holprigen, aber erfolgreichen Challenge auf der DAA-Tagung in Bielefeld (Challenge.mp4) :D! 
 
