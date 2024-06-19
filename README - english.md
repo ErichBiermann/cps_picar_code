@@ -16,4 +16,4 @@ In the 'scan_step_cps' method the measurements (taken with the built-in distance
 
 If the PiCar faces an obstacle at a distance less than 10 cm, it will back off and measure again. The same behavior is coded for an obstacle to the side at less than 5 cm, to cope with situations where the picar is stuck at corners.
 
-The code is simple but robust and even enables the car to maneuver itself out of dead ends.
+The code is simple but robust and even enables the car to maneuver itself back out of dead ends.
